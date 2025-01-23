@@ -200,25 +200,25 @@
 .main-head-teams-affirm-logo{
     height: 30px;
     width: 73px;
-    background-image: url(./images/affirm-logo.svg);
+    background-image: url('affirm-logo.svg');
     background-size: cover;
 }
 .main-head-teams-remote-logo{
     height: 25px;
     width: 120px;
-    background-image: url(./images/remote-logo.svg);
+    background-image: url('remote-logo.svg');
     background-size: cover;
 }
 .main-head-teams-1password-logo{
     height: 25px;
     width: 130px;
-    background-image: url(./images/1password-logo.svg);
+    background-image: url('1password-logo.svg');
     background-size: cover;
 }
 .main-head-teams-figma-logo{
     height: 35px;
     width: 90px;
-    background-image: url(./images/figma-logo.svg);
+    background-image: url('figma-logo.svg');
     background-size: cover;
 }
 .main-head-video {
