@@ -1,0 +1,594 @@
+*{
+    margin: 0; 
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+
+/* Navigation Bar */
+
+.nav-bar{
+    height:60px;
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+    /* margin-bottom: 20px; */
+
+}
+.nav-bar-logo{
+    height: 30px;
+    width: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    
+}    
+.nav-bar-logo-symbol{
+    background-image: url(./images/notion-logo.png);
+    background-size: cover;
+    height: 30px;
+    width:30px;
+
+
+}
+.nav-bar-logo-word{
+    height: 30px;
+    width: 70px;
+    font-size: 26px;
+    font-weight: 700;
+    padding-left: 5px;
+    align-items: center;
+
+}
+.nav-bar-options{
+    height: 20px;
+    width: 63%;
+    display: flex;
+    border: none;
+}
+.border{
+    height: 30px;
+    width: auto;
+    border: 1px solid white;
+    font-size: 20   px;
+    padding:0px 10px;
+    background-color: white;
+    align-content: center;
+}
+.border:hover{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+.nav-bar-options-teams{
+    height: 30px;
+    width: 80px;
+}
+.nav-bar-3-panel{
+    height: 30px;
+    width: 30%;
+    display: flex;
+    flex-direction: flex-end;
+    justify-content: space-around;
+
+}
+.nav-bar-request_a_demo button{
+    height: 40px;
+    width: 180px;
+    font-size: 22px;
+    font-weight: 550;
+    /* align-content: center; */
+    border: 1px solid white;
+    background-color: white;
+    padding-bottom: 10px;
+    padding-top: 4px;
+}
+.nav-bar-request_a_demo button:hover{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.nav-bar-login button{
+    height: 40px;
+    font-size: 24px;
+    font-weight: 550;
+    border: 1px solid white;
+    background-color: white;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+.nav-bar-login button:hover{
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+.nav-bar-get-notion-free button{
+    height:40px;
+    width: 170px;
+    color: white;
+    background-color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.nav-bar-get-notion-free button:hover{
+    
+    background-color: rgb(59, 59, 59);
+    cursor: pointer;
+}
+
+
+/* body of the notion */
+.head{
+    height: 500px;
+    width: 80%;
+    /* background-color: rgb(12, 150, 17); */
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+}
+.main{
+    height: 500px;
+    width: 50%;
+    /* background-color: rgb(12, 150, 17); */
+    padding-left: 120px;
+}
+.main-head-paragraph-1{
+    height: 150px;
+    width: 500px;
+    font-size: 75px;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.main-head-paragraph-2 {
+    height: 60px;
+    width: 450px;
+    font-size: 25px;
+    padding-bottom: 20px;
+    font-weight: 550;
+}
+.main-head-button{
+    height: 50px;
+    width:auto;
+    display: flex;
+    padding-bottom: 10px;
+}
+.main-head-button-get-notion-free button{
+    height: 45px;
+    width: 190px;
+    border: 1px solid #058ff0;
+    font-size: 20px;
+    background-color: #058ff0;
+    border-radius: 7px;
+    color: white;
+    font-weight: 600;
+    padding: 5px 20px;
+    margin-right: 10px;
+}
+.main-head-button-request-demo button{
+    height: 45px;
+    width: 190px;
+    font-size: 20px;
+    background-color:#bed5e5; 
+    border: 1px solid #bed5e5;
+    color: #087fe7;
+    border-radius: 7px;
+}
+.main-head-teams-paragraph{
+    height: 25px;
+    width: auto;
+    font-size: 19px;
+    color: gray;
+    font-weight: 550;
+}
+.main-head-teams-logos{
+    height: 50px;
+    width: 500px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-head-teams-affirm-logo{
+    height: 30px;
+    width: 73px;
+    background-image: url(./images/affirm-logo.svg);
+    background-size: cover;
+}
+.main-head-teams-remote-logo{
+    height: 25px;
+    width: 120px;
+    background-image: url(./images/remote-logo.svg);
+    background-size: cover;
+}
+.main-head-teams-1password-logo{
+    height: 25px;
+    width: 130px;
+    background-image: url(./images/1password-logo.svg);
+    background-size: cover;
+}
+.main-head-teams-figma-logo{
+    height: 35px;
+    width: 90px;
+    background-image: url(./images/figma-logo.svg);
+    background-size: cover;
+}
+.main-head-video {
+    height: 500px;
+    width: 500px;
+    /* position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: flex-end; */
+}
+
+.main-head-video video{
+    position: absolute;
+    right:20;
+    width: 600px;
+    height: 500px;
+    
+}
+
+/* .line2-image{
+    height:600px;
+    width: 1200px;
+    padding-left: 120px;
+    
+}
+.line2-image img{
+    height:550px;
+    width: 1200px;
+    padding-left: 120px;
+    
+
+} */
+/* line2-image-1{
+    height:450px;
+    width: 800px;
+    background-image: url(./images/line2-image.png);
+    background-size: cover;
+} */
+
+.line2-buttons{
+    height: 40px;
+    width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* padding: 20px; */
+    margin-top: 10px;
+
+}
+.line2-buttons button{
+    height: 30px;
+    width: 80px;
+    border: 1px solid grey;
+    /* padding: 20px; */
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+
+}
+.whole-article{
+    height: 300px;
+    width: 1300px;
+    margin-top: 100px;
+    display: flex;
+    padding-left: 120px;
+
+}
+.article{
+    height: 300px;
+    width: 600px;
+}
+.bold-paragraph{
+    height: 150px;
+    width: 600px;
+    font-size: 65px;
+    font-weight: 900;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.grey-paragraph{
+    height: 25px;
+    width: 500px;
+    font-size: 18px;
+    color: gray;
+    font-weight: 550;
+    /* padding: 10px; */
+    padding-top: 15px;
+    padding-bottom: 25px;
+    margin-bottom: 10px;
+}
+.grey-paragraph-video{
+    height: 25px;
+    width: 160px;
+    font-size: 18px;
+    color: gray;
+    font-weight: 550;
+    /* padding: 10px; */
+    padding-top: 15px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.weighted-paragraph{
+    font-size: 25px;
+    font-weight: 600;
+}
+.article-link{
+    height:25px;
+    font-size: 22px;
+    color: #058ff0;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.block-container{
+    height: 200px;
+    width: 160px;
+    padding: 30px;
+
+}
+.video{
+    height: 100px;
+    width: 100px;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    
+    
+}
+
+.figure{
+    height: 180px;
+    width: 600px;
+    background-color: #82817ff3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 150px;
+    margin-bottom: 150px;
+    transform: rotate(-5deg);
+}
+
+.figure-paragraph{
+    height: 60px;
+    width: 400px;
+    font-size: 33px;
+    font-weight: 520;
+}
+.figure-frobes{
+    height: 20px;
+    width:100px;
+    font-size: 23px;
+    font-weight: 660;
+}
+.whole-heading{
+    height: 200px;
+    padding-left: 120px;
+}
+.heading{
+    height: 140px;
+    width: 1000px;
+    font-size: 60px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.heading-wiki{
+    height: 566px;
+    width: 500px;
+    background-color: grey;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.image{
+    height: 400px;
+    width: 470px;
+    padding-top: 37px;
+    padding-left: 30px;
+}
+.logo{
+    height: 50px;
+    width: 90px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.paragraph{
+    /* height: 50px; */
+    padding-left: 35px;
+    font-size: 22px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.whole-heading-article{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(3,auto);
+    gap: 25px;
+    padding-left: 30px;
+}
+
+.heading-article{
+    height: 150px;
+    width: 300px;
+    background-color: gray;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+
+}
+.whole{
+    display: flex;
+    padding-left: 120px;
+}
+
+.features{
+    height: 170px;
+    width: 230px;
+    /* background-color: red; */
+
+}
+.features-img{
+    height: 90px;
+    width: 80px;
+    padding-bottom: 10px;
+}
+.whole-features{
+    width: 1200px;
+    padding-left: 120px;
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(2,auto);
+    gap: 20px;
+    row-gap: 70px;
+    column-gap: 60px;
+}
+.features-grey-paragraph{
+    width: 220px;
+    color: gray;
+    font-size: 18px;
+    font-weight: 550;
+}
+
+.notion-bottom{
+    display: flex;
+    padding-left: 120px;
+    
+}
+
+.notion-bottom-left{
+    height: 500px;
+    width: 600px;
+    background-color: rgb(189, 177, 177);
+    margin-right: 10px;
+}
+
+.notion-bottom-right{
+    height: 500px;
+    width: 600px;
+    background-color: rgb(189, 177, 177);
+}
+.notion-bottom-left img{
+    height: 300px;
+    width:560px;
+}
+.notion-bottom-right img{
+    height: 300px;
+    width:560px;
+}
+.buttons{
+    display: flex;
+}
+
+.try-it-free{
+    height: 45px;
+    width: 180px;
+    background-color: #058ff0;
+    border: 1px solid #058ff0;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 535;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+.download-now{
+    height: 45px;
+    width: 180px;
+    background-color:white;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 535;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+
+/*FOOTER*/
+.footer{
+    height: 500px;
+    width: 1400px;
+    background-color:white;
+    display: flex;
+    margin-top: 50px;
+}
+
+.footer-1{
+    height: 350px;
+    width:400px;
+    background-color: white;
+    padding: 10px;
+    margin-left: 120px;
+    margin-top: 20px;
+
+}
+.footer-notion-logo{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.footer-notion-logo p{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.social-media-logo{
+    display: flex;
+}
+.social-media-logo img{
+    height: 20px;
+    width: 20px;
+    padding-left: 10px;
+}
+
+.footer-language select{
+    height: 35px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: 550;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+.footer-copyright{
+    height: 130px;
+    width: 350px;
+    
+}
+.footer-copyright p{
+    padding-top: 20px;
+    
+}
+
+.footer-2{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.footer-3{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.footer-4{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.footer-5{
+    margin-left: 80px;
+    margin-top: 50px;
+}
+li{
+    list-style-type: none;
+    padding: 5px;
+}
